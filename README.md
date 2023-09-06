@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# ERP WEBSITE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ini adalah tugas dari KeDa tech test Frontend Coding Asignment.
 
-## Available Scripts
+## Tech yang digunakan
 
-In the project directory, you can run:
+1. React (^18.2.0)
+    alasan : 
+        > React adalah kerangka kerja JavaScript yang kuat dan populer untuk membangun antarmuka pengguna yang interaktif.
+        > Saya memilih React karena kemampuan komponen yang kuat, serta dukungan komunitas yang besar.
 
-### `npm start`
+2. Font Awesome (^6.4.2)
+    alasan :
+        > Font Awesome adalah pustaka ikon yang kaya yang memudahkan penambahan ikon-ikon menarik ke dalam aplikasi.
+        > Ikon Font Awesome digunakan untuk meningkatkan estetika dan fungsionalitas aplikasi.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. React Router Dom (^6.15.0)
+    alasan :
+        > React Router Dom adalah pustaka yang memungkinkan penanganan navigasi di aplikasi React.
+        > Ini digunakan untuk mengelola rute-rute aplikasi dan membuat navigasi antarhalaman yang mulus.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Sass (^1.66.1)
+    alasan :
+        > Sass adalah ekstensi CSS yang memungkinkan penulisan kode gaya yang lebih efisien dan terstruktur.
+        > Saya memilih Sass untuk memisahkan logika styling dari komponen saya dan mengelola gaya dengan lebih baik.
 
-### `npm test`
+5. Ilustrator : https://undraw.co/search
+    alasan :
+        > Lisensi Bebas: Undraw memiliki lisensi yang memungkinkan penggunaan bebas, bahkan dalam proyek komersial, dengan beberapa pembatasan tertentu. Ini dapat memudahkan penggunaan ilustrasi ini tanpa khawatir melanggar hak cipta
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+6. Jest (^29.6.4) dan Testing Library (^14.0.0)
+    alasan :
+        > Jest dan Testing Library digunakan untuk mengimplementasikan dan menjalankan pengujian unit dan pengujian fungsional dalam aplikasi.
+        > Ini membantu kami memastikan kualitas kode dan menjaga stabilitas aplikasi.
