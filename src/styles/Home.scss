@@ -1,0 +1,32 @@
+.home-container {
+  background-image: url("../assets/images/bg_home_dua.png");
+  height: 100vh; 
+  width: auto; 
+  background-size: cover; 
+  background-position: center;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  color: black;
+  text-align: center;
+  padding: 20px; 
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 10px; 
+    font-size: 16px;
+    img{
+      width:350px;
+    }
+
+    h2{
+      font-size: 18px;
+    }
+
+    p{
+     font-size: 16px;
+    }
+  }
+}

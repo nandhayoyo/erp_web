@@ -1,0 +1,84 @@
+.ContactForm {
+  background-image: url("../assets/images/bg_home_dua.png"); 
+  height: 84.3vh; 
+  width: auto;
+  background-size: cover; 
+  background-position: center; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  color: black; 
+  text-align: center; 
+  padding: 20px; 
+}
+
+.contact-image {
+  width: 500px;
+}
+
+.container-about {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.formRow {
+  margin-bottom: 20px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+textarea.formInput {
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background-color: #ff4500;
+}
+
+@media (max-width: 768px) {
+  .ContactForm {
+    flex-direction: column;
+    height: 90vh;
+    padding: 20px;
+    margin: 0px;
+
+    .contact-image {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+
+    .container-about {
+      flex-direction: column;
+      margin-right: 30px;
+    }
+
+    h2 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 14px;
+    }
+    img {
+      display: 50px;
+    }
+  }
+}
